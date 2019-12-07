@@ -1,0 +1,17 @@
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\bin\Debug\BlackjackDBLib.dll.config
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\bin\Debug\BlackjackDBLib.dll
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\bin\Debug\BlackjackDBLib.pdb
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\bin\Debug\EntityFramework.dll
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\bin\Debug\EntityFramework.xml
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.csprojAssemblyReference.cache
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.csproj.CoreCompileInputs.cache
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.csproj.CopyComplete
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.dll
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.pdb
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.Migrations.databaseSetup.resources
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.csproj.GenerateResource.cache
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.Migrations.addedTurn.resources
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.Migrations.RoundAddedToTurn.resources
+C:\Users\Gal Mrvar\Documents\Malmo\C sharp and net for non beginners\Assignments\Assignment5\Blackjack\BlackjackDBLib\obj\Debug\BlackjackDBLib.Migrations.AddedBoolPlacedBet.resources

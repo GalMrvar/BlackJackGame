@@ -1,0 +1,51 @@
+﻿<Window x:Class="Blackjack.PlayerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blackjack"
+        mc:Ignorable="d"
+        Title="Player 1" Height="350" Width="548.4" Closing="PlayerWindow_Closing" 
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+
+        <!-- pictures-->
+        <Image Name="Card1" Grid.Column="1" HorizontalAlignment="Left" Height="232" Margin="9.4,10.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="146"/>
+        <Image Name="Card2" Grid.Column="1" HorizontalAlignment="Left" Height="232" Margin="99.4,10.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="146"/>
+        <Image Name="Card3" Grid.Column="1" HorizontalAlignment="Left" Height="232" Margin="190.4,10.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="146"/>
+        <Image Name="Card4" Grid.Column="1" HorizontalAlignment="Left" Height="232" Margin="281.4,10.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="146"/>
+        <Image Name="Card5" Grid.Column="1" HorizontalAlignment="Left" Height="232" Margin="368.4,10.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="146"/>
+
+        <!--Components -->
+        <Label Content="Score: " Grid.Column="1" HorizontalAlignment="Left" Margin="10.4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="54"/>
+        <Label Content="0" Grid.Column="1" x:Name="labelScore" HorizontalAlignment="Left" Margin="64.4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="35"/>
+
+        <Button Name="buttonShuffle" Content="Shuffle" Grid.Column="1" HorizontalAlignment="Right" Margin="0,28.4,0.8,2.2" Grid.Row="2" VerticalAlignment="Center" Width="66" Click="Button_Click_Shuffle"/>
+        <Button Name="buttonHit" Content="Hit" Grid.Column="1" HorizontalAlignment="Right" Margin="0,28.4,71.8,2.2" Grid.Row="2" VerticalAlignment="Center" Width="66" Click="Button_Click_Hit"/>
+        <Button Name="buttonStand" Content="Stand" Grid.Column="1" HorizontalAlignment="Right" Margin="0,28.4,142.8,2.2" Grid.Row="2" VerticalAlignment="Center" Width="66" Click="Button_Click_Stand"/>
+
+        <Rectangle Grid.Column="1" Fill="#E0E0E0" HorizontalAlignment="Left" Height="49" Margin="99.4,251.4,0,0" Grid.Row="1" Stroke="#E0E0E0" VerticalAlignment="Top" Width="1" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2"/>
+        <Rectangle Grid.Column="1" Fill="#E0E0E0" HorizontalAlignment="Left" Height="49" Margin="297.4,251.4,0,0" Grid.Row="1" Stroke="#E0E0E0" VerticalAlignment="Top" Width="1" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2"/>
+        <Rectangle Grid.Column="1" Fill="#E0E0E0" HorizontalAlignment="Left" Height="49" Margin="202.4,251.4,0,0" Grid.Row="1" Stroke="#E0E0E0" VerticalAlignment="Top" Width="1" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2"/>
+
+        <Label Content="It's your turn" Name="labelTurn" FontWeight="Bold" Grid.Column="1" HorizontalAlignment="Left" Margin="105.4,12.4,0,12.2" Grid.Row="2" VerticalAlignment="Center" Width="92"/>
+        
+        <TextBox Grid.Column="1" x:Name="TextBet" HorizontalAlignment="Right" Height="20" Margin="0,4.4,87.8,0" Grid.Row="2" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.183,0.122"/>
+        <Button x:Name="buttonBet" Content="Bet" Grid.Column="1" Height="20" HorizontalAlignment="Right" Margin="0,4.4,0.8,0" Grid.Row="2" VerticalAlignment="Top" Width="66" Click="Button_Click_Bet"/>
+
+        <Label Content="1000 vc" x:Name="labelState" Grid.Column="1" HorizontalAlignment="Left" Margin="217.4,12.4,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75"/>
+
+
+    </Grid>
+</Window>

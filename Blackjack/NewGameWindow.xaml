@@ -1,0 +1,32 @@
+﻿<Window x:Class="Blackjack.NewGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blackjack"
+        mc:Ignorable="d"
+        Title="Start a new game" Height="194.6" Width="397.133"
+        ResizeMode="NoResize">
+    <Grid Height="165" VerticalAlignment="Top" Margin="0,0,0.4,-0.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="1" Grid.Column="1" Content="How many decks:" Height="25" HorizontalAlignment="Left"  x:Name="label1" VerticalAlignment="Center" Width="120" Margin="0.4,0.4,0,0" />
+        <TextBox Grid.Row="1" Grid.Column="1" Height="25" HorizontalAlignment="Left"  x:Name="txtNumberOfDecks" VerticalAlignment="Center" Width="120" Margin="125.4,14.4,0,13.4" TextChanged="TxtNumberOfDecks_TextChanged" />
+
+        <Label Grid.Row="2" Grid.Column="1" Content="How many players:" Height="25" HorizontalAlignment="Left"  x:Name="label2" VerticalAlignment="Center" Width="120" Margin="0.4,0.4,0,0" />
+        <TextBox Grid.Row="2" Grid.Column="1" Height="25" HorizontalAlignment="Left"  x:Name="txtNumberOfPlayers" VerticalAlignment="Center" Width="120" Margin="125.4,14.4,0,13.4" />
+
+        <Button Grid.Row="3" Grid.Column="1" Height="25" Content="Start game" HorizontalAlignment="right"  x:Name="start" VerticalAlignment="Center" Width="137" Margin="0,10,9.8,5" Click="Start_Click" />
+    
+    </Grid>
+</Window>
